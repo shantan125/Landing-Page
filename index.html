@@ -10,63 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <style>
-header {
-      font-family: sans-serif;
-      font-weight: 600;
-  }
-
-  .txt {
-      color: #000000;
-      transition: color 0.3s;
-  }
-
-  .txt:hover {
-      color: #e218d8;
-  }
-
-  body {
-      background-color: #c6d2dd;
-  }
-
-  .xyz .nav-link:hover {
-      background-color: rgba(14, 173, 179, 0.7);
-      color: #eb7b7b;
-  }
-
-  .ABC {
-      background-color: #0c1a27;
-      transition: 0.3s;
-  }
-
-  .ABC:hover {
-      color: #e9f2fc;
-  }
-
-  .pqr {
-      object-fit: cover;
-  }
-
-  .card {
-      margin-right: 30px;
-      background: rgba(12, 26, 39, 0.4)
-  }
-
-  .card:hover {
-      background-color: #6dbace;
-      /* Change the background color on hover */
-  }
-
-  .qwe {
-      text-align: center;
-  }
-
-  .card img {
-      height: 200px;
-      /* Adjust the height as needed */
-      object-fit: cover;
-  }
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -82,7 +26,7 @@ header {
             <li class="xyz nav-item"><a href="#" class="nav-link" aria-current="page" style="color: #1d1e1f;">Home</a>
             </li>
             <li class="xyz nav-item"><a href="#Services" class="nav-link" style="color: #1d1e1f;">Services</a></li>
-            <li class="xyz nav-item"><a href="#" class="nav-link" style="color: #1d1e1f;">Projects</a></li>
+            <li class="xyz nav-item"><a href="#projects" class="nav-link" style="color: #1d1e1f;">Projects</a></li>
             <li class="xyz nav-item"><a href="#" class="nav-link" style="color: #1d1e1f;">Contact</a></li>
         </ul>
     </header>
@@ -126,8 +70,8 @@ header {
             <div class="card mb-3">
                 <img src="images/img9.jpg" class="card-img-top" alt="general construction">
                 <div class="card-body">
-                    <h5 class="card-title">General Construction</h5>
-                    <p class="card-text">General construction encompasses the fundamental and diverse activities involved in the
+                    <h5 class="card-title text-center">General Construction</h5>
+                    <p class="card-text text-center">General construction encompasses the fundamental and diverse activities involved in the
                         creation and assembly of
                         structures. XYZ Construction, as a leader in this field, oversees the entire construction process, from initial
                         planning
@@ -144,7 +88,7 @@ header {
                         itself on delivering high-quality results, setting the standard for reliability and craftsmanship in the world
                         of
                         general construction.</p>
-                    <p class="card-text"><small class="text-muted">"Innovate, Build, Excel, Deliver, Succeed."</small></p>
+                    <p class="card-text text-center"><small class="text-muted">"Innovate, Build, Excel, Deliver, Succeed."</small></p>
                 </div>
             </div>
 
@@ -152,8 +96,8 @@ header {
             <div class="card mb-3">
                         <img src="images/img6.jpg" class="card-img-top" alt="DESIGN-BUILD SERVICES">
                         <div class="card-body">
-                            <h5 class="card-title">DESIGN-BUILD SERVICES</h5>
-                            <p class="card-text">XYZ Company stands out in the construction industry with its exemplary Design-Build services.
+                            <h5 class="card-title text-center">DESIGN-BUILD SERVICES</h5>
+                            <p class="card-text text-center">XYZ Company stands out in the construction industry with its exemplary Design-Build services.
                                 Specializing in an
                                 integrated approach, the company seamlessly combines innovative design concepts with efficient construction
                                 execution.
@@ -162,7 +106,7 @@ header {
                                 commitment to excellence, XYZ Company's Design-Build services redefine construction, delivering comprehensive
                                 solutions
                                 that exceed client expectations.</p>
-                            <p class="card-text"><small class="text-muted">"XYZ: Innovating Design-Build Excellence."</small></p>
+                            <p class="card-text text-center"><small class="text-muted">"XYZ: Innovating Design-Build Excellence."</small></p>
                         </div>
             </div>
 
@@ -170,8 +114,8 @@ header {
             <div class="card mb-3">
                 <img src="images/img7.jpg" class="card-img-top" alt="Renovation and Remodeling">
                 <div class="card-body">
-                    <h5 class="card-title">Renovation and Remodeling</h5>
-                    <p class="card-text">XYZ Construction Company excels in the art of renovation and remodeling, transforming spaces
+                    <h5 class="card-title text-center">Renovation and Remodeling</h5>
+                    <p class="card-text text-center">XYZ Construction Company excels in the art of renovation and remodeling, transforming spaces
                         with creativity and
                         precision. With a keen eye for detail, our experienced team revitalizes commercial and residential properties,
                         breathing
@@ -181,16 +125,91 @@ header {
                         solutions, quality craftsmanship, and a commitment to delivering exceptional results that enhance the
                         functionality and
                         aesthetic appeal of their properties.</p>
-                    <p class="card-text"><small class="text-muted">"XYZ Construction: Transforming spaces with expertise."</small></p>
+                    <p class="card-text text-center"><small class="text-muted">"XYZ Construction: Transforming spaces with expertise."</small></p>
                 </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--Project section>
-    <div class="container">
-        
+    <!--project section-->
+    <div class="container" id="projects">
+      <h5 class="display-4 fw-bold text-center mb-4" style="color: #0c1a27;">PROJECTS</h5>
+      <div class="card-group">
+        <!--general card construction-->
+        <!--abc apartments-->
+        <div class="card mb-3">
+            <img src="images/img1.jpg" class="card-img-top" alt="ABC Apartments">
+            <div class="card-body">
+                <h5 class="card-title text-center">ABC Apartments</h5>
+                <p class="card-text text-center">Welcome to XYZ Construction Company, where we turn dreams into reality through our commitment to excellence in
+                construction. At XYZ, we take pride in our latest endeavor, the construction of the state-of-the-art ABC Apartments. As
+                a leading player in the construction industry, we bring innovation, quality craftsmanship, and unparalleled expertise to
+                every project we undertake. The ABC Apartments project is a testament to our dedication to creating spaces that redefine
+                modern living. From the initial concept to the finishing touches, our team of skilled professionals ensures meticulous
+                attention to detail, adhering to the highest industry standards. XYZ Construction Company is honored to be at the
+                forefront of shaping communities and delivering exceptional residential experiences. Explore the epitome of luxury and
+                functionality with the ABC Apartments, a testament to our unwavering commitment to building the future.</p>
+                <p class="card-text text-center"><small>"Building Dreams, Creating Spaces, Inspiring Futures."</small></p>
+            </div>
+        </div>
+        <!--Gourmet Haven: Culinary Oasis Renovation-->
+        <div class="card mb-3">
+            <img src="images/img2.jpg" class="card-img-top" alt="Gourmet Haven: Culinary Oasis Renovation">
+            <div class="card-body">
+                <h5 class="card-title text-center">Gourmet Haven: Culinary Oasis Renovation</h5>
+                <p class="card-text text-center">Embark on a culinary journey like never before with XYZ Construction Company's latest triumph, "Gourmet Haven: Culinary
+                Oasis Renovation." As passionate creators of exceptional spaces, we took on the challenge of transforming a traditional
+                restaurant into a modern gastronomic sanctuary. The Gourmet Haven project seamlessly blends contemporary design elements
+                with the essence of culinary tradition. Our meticulous renovation approach enhances both the visual appeal and
+                functional efficiency of the space, creating an inviting ambiance for patrons to savor delectable dishes in style. From
+                revitalizing the interior aesthetics to optimizing the kitchen layout for seamless operations, XYZ Construction Company
+                has curated an unparalleled dining experience at Gourmet Haven. Join us in celebrating the art of fine dining as we
+                unveil a reimagined culinary oasis that reflects our commitment to innovation and excellence in every project we
+                undertake.</p>
+                <p class="card-text text-center"><small>"Revitalizing dining: where tradition meets innovation."</small></p>
+            </div>
+        </div>
+        <!--Heritage Fortress Restoration: Embracing History-->
+        <div class="card mb-3">
+            <img src="images/img4.jpg" class="card-img-top" alt="Heritage Fortress Restoration: Embracing History">
+            <div class="card-body">
+                <h5 class="card-title text-center">Heritage Fortress Restoration: Embracing History</h5>
+                <div class="card-body">
+                    <p class="card-text text-center">At XYZ Construction Company, we go beyond building structures; we craft experiences and shape environments. With a rich
+                    legacy of successful projects, we have become synonymous with quality, reliability, and innovation. Our comprehensive
+                    range of services encompasses everything from meticulous planning to flawless execution. Whether you are envisioning a
+                    modern home, a vibrant commercial space, or a community hub, we have the expertise to make it happen. What sets XYZ
+                    Construction Company apart is our unwavering commitment to client satisfaction, ensuring that every project reflects not
+                    just bricks and mortar, but the dreams and aspirations of those who inhabit the spaces we create. Join us on this
+                    exciting journey of construction, where precision meets passion, and dreams find their foundations in reality.</p>
+                    <p class="card-text text-center ">"Preserving heritage with passion and precision"</small></p>
+                </div>
+            </div>
+        </div>
     </div>
+    <!--footer section-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="text-muted">© 2021 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#twitter"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#instagram"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#facebook"></use>
+                    </svg></a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
